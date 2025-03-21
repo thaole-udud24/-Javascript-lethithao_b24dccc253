@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
+        .header {
+            background: url('header-image.jpg') no-repeat center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu {
+            background: #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .menu a {
+            text-decoration: none;
+            color: blue;
+            padding: 0 10px;
+        }
+        .sidebar {
+            width: 250px;
+            background: #f4f4f4;
+            padding: 10px;
+        }
+        .content {
+            width: calc(100% - 270px);
+            padding: 10px;
+        }
+        .post-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .post {
+            width: calc(50% - 10px);
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: #fff;
+        }
+        .post img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #8e8f91;
+            color: rgb(7, 6, 6);
+        }
+        button{
+            background: rgb(46, 166, 235);
+            color: white;
+            border: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2" class="header"> <img src ="https://www.dignexus.com/assets/images/news-portal-banner.png" width="100%" ></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="menu">
+                <a href="#">Trang chủ</a> | 
+                <a href="#">Tin tức</a> | 
+                <a href="#">Giải trí</a> | 
+                <a href="#">Thể thao</a> | 
+                <a href="#">Liên hệ</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="sidebar" valign="top">
+                <h3>Danh mục</h3>
+                <ul>
+                    <li><a href="#">Công nghệ</a></li>
+                    <li><a href="#">Giáo dục</a></li>
+                    <li><a href="#">Thời sự </a></li>
+                    <li><a href="#"> Đời sống </a></li>
+                </ul>
+                <h3>Tin mới nhất</h3>
+                <ul>
+                    <li><a href="#">Ông Trump không hài lòng, lập <br>
+                    tức giục Fed lãi suất </a></li>
+                    <li><a href="#">Cao tốc Biên Hòa - Vũng tàu,<br>
+                    sân bay Long Thành cơ bản</a></li>
+                
+                    <li><a href="#">Bộ Tài chính : Giao dịch tài sản <br>
+                    số sẽ phải đóng thuế</a></li>
+                    <li> <a href = "#"> Quốc gia NATO nếu điều sẽ <br> gây ra "cơn ác mộng " cho Nga</a></li>
+                </ul>
+            </td>
+            
+            <td class="content">
+                <h2>⭐ Bài viết nổi bật</h2>
+                <div class="post-container">
+                    <div class="post">
+                        <img src="https://image.tinnhanhchungkhoan.vn/300x200/Uploaded/2025/wpxlcdjwi/2025_03_06/thumbnail-2-13-6806.png" alt="Bài viết 1">
+                        <h3><b>VPS Investory - Chuyện đầu tư: Truyền cảm hứng khởi đầu tư | Tin nhanh chứng khoản </b></h3>
+                        <p>Với mong muốn tạo cầu nối tới cộng đồng đang tìm hiểu<br> về đầu tư, đặc biệt là quan tâm tới thị trường chứng <br> khoản để cùng chia sẻ những câu chuyện, những kinh<br> nghiệm đầu tư thủ vị...</p>
+                        <button>Xem chi tiết </button>
+                    </div>
+                    <div class="post">
+                        <img src="https://tse-tesol.edu.vn/wp-content/uploads/2024/11/word-image-31706-1-300x200.png" alt="Bài viết 2">
+                        <h3><b>Các cấp độ tiếng Anh cho trẻ em là gì? Phân loại cấp<br> độ tiếng Anh cho trẻ theo năng lực</b></h3>
+                        <p>Để giúp trẻ tiến bộ nhanh chóng và phát triển tốt nhất,<br> nhiều phụ huynh và giáo viên đã lựa chọn định hướng <br>học tiếng Anh dựa trên các kỳ thi như Cambridge Young <br>Learners English Tests ...</p>
+                        <button>Xem chi tiết </button>
+                    </div>
+                    <div class="post">
+                        <img src="https://www.align.vn/storage/2024/09/Google-Business-Thumbnail-300x200.png" alt="Bài viết 3">
+                        <h3><b>Hướng dẫn đăng ký Google Business Profile cho <br>doanh nghiệp </b></h3>
+                        <p>Có thể nói xu hướng mua sắm hay tìm hiểu dịch vụ của <br>người tiêu dùng đã thay đổi rất nhiều. Hãy tưởng tượng <br> bạn muốn mua một cuốn sách, hay tìm kiếm đặt lịch một<br> dịch vụ spa...</p>
+                        <button> Xem chi tiết </button>
+                    </div>
+                    <div class="post">
+                        <img src="https://nanotravel.vn/wp-content/uploads/2024/03/image-1-300x200.png" alt="Bài viết 4">
+                        <h3><b>Bà Nà Hills – điểm đến hàng đầu tại Đà Nẵng, luôn <br>thu hút hàng triệu du khách</b></h3>
+                        <p>Năm 2025, Banahill Giá Vé có nhiều thay đổi quan trọng,<br> giúp nâng cao trải nghiệm du khách và mở rộng <br>chính sách ưu đãi. Những điều chỉnh này không chỉ <br> mang lại sự tiện lợi trong việc mua vé....</p>
+                        <button>Xem chi tiết </button>
+                    </div>
+                </div>
+                <h2> Các bài viết khác</h2>
+                <hr size="2px" color="green" width="100%">
+                <ul>
+                    <li><a href="#">iPhone màn hình gập sẽ được Apple trang bi "vũ khí đặc biệt"</a></li>
+                    <li><a href="#">Tình thành có tốc độ Internet nhanh nhất Việt Nam: Bất ngờ cái tên dẫn đầu</a></li>
+                    <li><a href="#">Chùm ảnh hé lộ tron ven thiết kế của loạt iPhone 17 sắp ra mắt </a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer" align="left"><pre>Bản quyền © 2025 -UDU| Liên hệ: info@news.com       Theo dõi chúng tôi:<a href="#">Facebook</a>|<a href="#">Twitter</a>|<a href="#">Instagram</a></pre> </td>
+        </tr>
+    </table>
+</body>
+</html>
