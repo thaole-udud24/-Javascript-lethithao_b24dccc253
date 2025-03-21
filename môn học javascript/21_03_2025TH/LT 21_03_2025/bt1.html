@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>PT Ứng dụng Web - THIẾT KẾ FORM ĐƠN GIẢN</h2>
+        <form>
+            <label for="name">Họ và tên</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Số điện thoại</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="city">Quê quán</label>
+            <select id="city" name="city">
+                <option value="">--Chọn thành phố--</option>
+                <option value="hanoi">Hà Nội</option>
+                <option value="hochiminh">TP. Hồ Chí Minh</option>
+                <option value="danang">Đà Nẵng</option>
+                <option value="hue">Huế </option>
+                <option value="namdinh">Nam Định </option>
+            </select>
+
+            <label>Giới tính</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="Nam">
+                <label for="male">Nam</label>
+                <input type="radio" id="female" name="gender" value="Nữ">
+                <label for="female">Nữ</label>
+            </div>
+
+            <label>Kỹ năng</label>
+            <div class="skills">
+                <input type="checkbox" id="html" name="skills" value="HTML">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="skills" value="CSS">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="js" name="skills" value="JS">
+                <label for="js">JS</label>
+                <input type="checkbox" id="bootstrap" name="skills" value="Bootstrap">
+                <label for="bootstrap">BOOTSTRAP</label>
+            </div>
+
+            <label for="dob">Ngày sinh</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="bio">Giới thiệu bản thân</label>
+            <textarea id="bio" name="bio" rows="4"></textarea>
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo 1 biểu mẫu </title>
+    <style>
+        body {
+            background-color: #e1c1eb;
+            font-family: Verdana;
+            text-align: center;
+            }   
+        button {
+                background-color: #ca6fbb;
+                border: 1px solid #f5dddd;
+
+                border-radius: 2px;
+                font-family: inherit;
+                font-size: 21px;
+                display: block;
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 20px;
+               }
+               form {
+                background-color: #fff;
+                max-width: 500px;
+                margin: 50px auto;
+                padding: 30px 20px;
+                box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+                }
+       
+    </style>
+</head>
+<body>
+    <h1>điền form </h1>
+    <form id="form">
+    <div class ="form -control ">
+        <label for ="name" id ="label-name"> Họ và Tên</label>
+        <input type="text" 
+               id="name"
+               placeholder="Nhập tên của bạn" />
+        
+    </div>
+    <div class ="form -control">
+        <label for ="email"  id="lanel-email">Email</label>
+        <input type ="email"
+                id="email"
+                placeholder="Nhập email của bạn " />
+
+
+    </div>
+    <div class="form-control">
+        <label>1 + 1 = ? </label>
+        <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed" value="yes">A.1 </input>
+        </label>
+        <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed" value="no">B.2 </input>
+        </label>
+        <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed" value="maybe">C.3 </input>
+        </label>
+    </div>
+    <div class="form-control">
+        <label>bạn đang học trường nào ?
+        <small>(Có thể chọn nhiều đáp án)</small>
+        </label>
+        <label for="inp-1">
+        <input type="checkbox" name="inp" value="ptit">ptit</input>
+        </label>
+        <label for="inp-2">
+        <input type="checkbox" name="inp" value="hust">hust</input>
+        </label>
+        <label for="inp-3">
+        <input type="checkbox" name="inp" value="khác ">khác</input></label>
+    </div>
+    <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
